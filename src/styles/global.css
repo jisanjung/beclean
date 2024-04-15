@@ -1,4 +1,12 @@
 /* css resets */
+:root {
+	--dark-gray: #363434;
+	--sky-blue: #43BDD5;
+	--white: #fff;
+	--black: #000;
+	--light-gray: #F5F5F7;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,6 +34,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: Arial, Helvetica, sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -41,4 +50,62 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	width: 100%;
+}
+button {
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+}
+.flex {
+	display: flex;
+}
+.justify-center {
+	justify-content: center;
+}
+.space-between {
+	justify-content: space-between;
+}
+.items-center {
+	align-items: center;
+}
+.container {
+	padding: 0 1rem;
+}
+
+/* header */
+header {
+	background-color: var(--dark-gray);
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-right: 0.5rem;
+}
+header .logo-img {
+	width: 50px;
+}
+header p { 
+	color: var(--white);
+	font-size: 18px;
+	font-weight: bold;
+}
+header #menuBtn {
+	width: 45px;
+}
+/* nav mobile */
+#navMobile {
+	background-color: var(--dark-gray);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: none;
+}
+#navMobile a {
+	color: var(--white);
+}
+#navMobile ul li:not(:last-child) {
+	padding-bottom: 1rem;
 }

@@ -3,9 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./src/styles/global.css"/>
     <title>beclean</title>
   </head>
   <body>
-    <div id="app">beclean home</div>
+    <div id="app">
+      <header>
+        <div class="flex space-between">
+          <button class="flex items-center">
+            <div class="logo-img">
+              <img src="./images/beclean_logo.png"/>
+            </div>
+            <p>beclean</p>
+          </button>
+          <button id="menuBtn">
+            <img src="./images/menu_icon.png"/>
+          </button>
+        </div>
+        <nav id="navMobile" class="container">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Our Story</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/src/js/index.js"></script>
   </body>
 </html>
