@@ -116,6 +116,12 @@ button {
 .object-cover {
 	object-fit: cover;
 }
+.title-md {
+	font-weight: bold;
+	font-size: 64px;
+	margin-bottom: 1rem;
+	line-height: 1.25;
+}
 .text {
 	font-size: 20px;
 	line-height: 1.25;
@@ -125,59 +131,4 @@ button {
 	color: white;
 	background: var(--sky-blue);
 	border-radius: 10px;
-}
-
-/* header */
-header {
-	background-color: var(--dark-gray);
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-right: 0.5rem;
-	position: absolute;
-	left: 0;
-	right: 0;
-	z-index: 1;
-}
-header .logo-img {
-	width: 50px;
-}
-header p { 
-	color: var(--white);
-	font-size: 18px;
-	font-weight: bold;
-}
-header #menuBtn {
-	width: 45px;
-}
-/* nav mobile */
-#navMobile {
-	background-color: var(--dark-gray);
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	display: none;
-}
-#navMobile a {
-	color: var(--white);
-}
-#navMobile ul li:not(:last-child) {
-	padding-bottom: 1rem;
-}
-
-/* home section */
-#homeSection {
-	height: 100vh;
-	position: relative;
-	color: var(--white);
-}
-#homeSection h1 {
-	font-weight: bold;
-	font-size: 64px;
-	margin-bottom: 1rem;
-	line-height: 1.25;
-}
-#homeSection p {
-	margin-bottom: 2rem;
-}
-#homeSection .button:not(:last-child) {
-	margin-right: 1rem;
 }

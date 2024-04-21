@@ -1,0 +1,21 @@
+#servicesSection {
+    margin-top: 3rem;
+}
+#servicesSection .service-desc {
+    margin-bottom: 1.5rem;
+}
+#servicesSection .service-each {
+    margin-bottom: 8rem;
+}
+#servicesSection .service-each .button:not(:last-child) {
+    margin-right: 1rem;
+}
+#servicesSection .service-img {
+    margin-top: 1.5rem;
+    background: lightgray;
+    height: 300px;
+    position: relative;
+    left: -1rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

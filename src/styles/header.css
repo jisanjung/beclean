@@ -1,0 +1,35 @@
+/* header */
+header {
+	background-color: var(--dark-gray);
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-right: 0.5rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+header .logo-img {
+	width: 50px;
+}
+header p { 
+	color: var(--white);
+	font-size: 18px;
+	font-weight: bold;
+}
+header #menuBtn {
+	width: 45px;
+}
+/* nav mobile */
+#navMobile {
+	background-color: var(--dark-gray);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: none;
+}
+#navMobile a {
+	color: var(--white);
+}
+#navMobile ul li:not(:last-child) {
+	padding-bottom: 1rem;
+}
