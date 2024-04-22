@@ -66,7 +66,10 @@ button {
 	display: flex;
 }
 .justify-center {
-	justify-content: center;
+	justify-content: center; 
+}
+.justify-end {
+	justify-content: end;
 }
 .space-between {
 	justify-content: space-between;
@@ -131,4 +134,7 @@ button {
 	color: white;
 	background: var(--sky-blue);
 	border-radius: 10px;
+}
+.text-right {
+	text-align: right;
 }
