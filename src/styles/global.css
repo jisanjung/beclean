@@ -119,11 +119,25 @@ button {
 .object-cover {
 	object-fit: cover;
 }
+.title-lg {
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 1.25;
+}
 .title-md {
 	font-weight: bold;
 	font-size: 64px;
-	margin-bottom: 1rem;
 	line-height: 1.25;
+}
+.title-sm {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 1.15;
+}
+.title-xs {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.05;
 }
 .text {
 	font-size: 20px;
@@ -137,4 +151,7 @@ button {
 }
 .text-right {
 	text-align: right;
+}
+.text-center{
+	text-align: center;
 }

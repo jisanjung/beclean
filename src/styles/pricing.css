@@ -1,0 +1,39 @@
+#pricingSection {
+
+}
+#pricingSection .title-sm {
+    margin-bottom: 2rem;
+}
+#pricingSection > .pricing-each:first-of-type {
+    background-color: #43BDD5;
+    color: white;
+}
+.pricing-each {
+    background: #F5F5F7;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.pricing-each:not(:last-child) {
+    margin-bottom: 1rem;
+}
+.pricing-each .down-chevron {
+    width: 100%;
+}
+.pricing-each .down-chevron img {
+    width: 32px;
+}
+.pricing-each .title-xs {
+    margin-bottom: 0.5rem;
+}
+.pricing-each .price {
+    margin-top: 3rem;
+}
+.price .text {
+    position: absolute;
+}
+.price .title-lg {
+    padding-top: 0.75rem;
+}
+.pricing-each .price-details {
+    display: none;
+}
