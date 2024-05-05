@@ -103,6 +103,9 @@ button {
 .absolute {
 	position: absolute;
 }
+.inline-block {
+	display: inline-block;
+}
 .center-y {
 	top: 50%;
 	transform: translateY(-50%);
@@ -140,6 +143,10 @@ button {
 	line-height: 1.05;
 }
 .text {
+	font-size: 20px;
+	line-height: 1.25;
+}
+.text-md {
 	font-size: 20px;
 	line-height: 1.25;
 }
