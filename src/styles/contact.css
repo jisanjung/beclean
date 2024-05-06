@@ -1,0 +1,10 @@
+#contactSection .textbox {
+    margin-bottom: 1rem;
+}
+#contactSection #logoBanner {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#contactSection form .button {
+    width: 100%;
+}

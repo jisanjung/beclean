@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./src/styles/home.css"/>
     <link rel="stylesheet" type="text/css" href="./src/styles/services.css"/>
     <link rel="stylesheet" type="text/css" href="./src/styles/pricing.css"/>
+    <link rel="stylesheet" type="text/css" href="./src/styles/contact.css"/> 
     <title>beclean</title>
   </head>
   <body>
@@ -101,7 +102,7 @@
         </div>
       </section>
       <section id="pricingSection" class="container">
-        <h3 class="title-sm">What Detail is Right For You?</h3>
+        <h3 class="title-sm text-center">What Detail is Right For You?</h3>
         <div class="pricing-each">
           <div>
             <div class="text-center">
@@ -272,6 +273,30 @@
             </div>
           </div>
         </div>
+      </section>
+      <section id="contactSection" class="container">
+        <h3 class="title-sm text-center">Contact Us</h3>
+        <div id="logoBanner">
+          <img src="/images/logo-banner.png"/>
+        </div>
+        <form>
+          <input type="text" placeholder="Name" class="textbox" required/>
+          <select id="contactPreference" class="textbox" required>
+            <option value="" disabled selected>Preferred method of contact</option>
+            <option value="Email">Email</option>
+            <option value="Phone">Phone</option>
+          </select>
+          <input type="email" placeholder="Enter Email" class="textbox none" id="textboxEmail"/>
+          <input type="tel" placeholder="Enter Phone" class="textbox none" id="textboxPhone"/>
+          <select id="serviceType" class="textbox" required>
+            <option value="" disabled selected>Service Type</option>
+            <option value="Exterior Detail ($100)">Exterior Detail ($100)</option>
+            <option value="Interior Detail ($190)">Interior Detail ($190)</option>
+            <option value="Detail Package ($270)">Detail Package ($270)</option>
+          </select>
+          <textarea placeholder="How can we help?" class="textbox" rows="7"></textarea>
+          <button type="submit" class="button">Contact Us</button>
+        </form>
       </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

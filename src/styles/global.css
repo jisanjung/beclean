@@ -6,6 +6,9 @@
 	--black: #000;
 	--light-gray: #F5F5F7;
 }
+* {
+	box-sizing:border-box;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -64,6 +67,9 @@ button {
 }
 .flex {
 	display: flex;
+}
+.none {
+	display: none;
 }
 .justify-center {
 	justify-content: center; 
@@ -155,10 +161,27 @@ button {
 	color: white;
 	background: var(--sky-blue);
 	border-radius: 10px;
+	font-size: 16px;
 }
 .text-right {
 	text-align: right;
 }
 .text-center{
 	text-align: center;
+}
+.textbox {
+	width: 100%;
+	padding: 1rem;
+	border-radius: 10px;
+	border: 1px solid #9E9E9E;
+	font-size: 18px;
+}
+select:required:invalid {
+	color: gray;
+}
+option {
+	color: black;
+}
+textarea::placeholder {
+	font-family: Arial, Helvetica, sans-serif;
 }
