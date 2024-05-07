@@ -279,22 +279,25 @@
         <div id="logoBanner">
           <img src="/images/logo-banner.png"/>
         </div>
-        <form>
-          <input type="text" placeholder="Name" class="textbox" required/>
-          <select id="contactPreference" class="textbox" required>
+        <form
+          action="https://formspree.io/f/mwkgyjpb"
+          method="POST"
+        >
+          <input type="text" placeholder="Name" name="Name" class="textbox" required/>
+          <select id="contactPreference" name="Preference" class="textbox" required>
             <option value="" disabled selected>Preferred method of contact</option>
             <option value="Email">Email</option>
             <option value="Phone">Phone</option>
           </select>
-          <input type="email" placeholder="Enter Email" class="textbox none" id="textboxEmail"/>
-          <input type="tel" placeholder="Enter Phone" class="textbox none" id="textboxPhone"/>
-          <select id="serviceType" class="textbox" required>
+          <input type="email" name="Email" placeholder="Enter Email" class="textbox none" id="textboxEmail"/>
+          <input type="tel" placeholder="Enter Phone" name="Phone" class="textbox none" id="textboxPhone"/>
+          <select id="serviceType" name="Service" class="textbox" required>
             <option value="" disabled selected>Service Type</option>
             <option value="Exterior Detail ($100)">Exterior Detail ($100)</option>
             <option value="Interior Detail ($190)">Interior Detail ($190)</option>
             <option value="Detail Package ($270)">Detail Package ($270)</option>
           </select>
-          <textarea placeholder="How can we help?" class="textbox" rows="7"></textarea>
+          <textarea placeholder="How can we help? (Optional)" name="Message" class="textbox" rows="7"></textarea>
           <button type="submit" class="button">Contact Us</button>
         </form>
       </section>

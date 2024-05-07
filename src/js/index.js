@@ -21,4 +21,16 @@ contactPreference.addEventListener('change', () => {
         textboxEmail.style.display = 'none';
         textboxPhone.style.display = 'block';
     }
+
+    if (textboxEmail.style.display === 'block') {
+        textboxEmail.required = true;
+    } else {
+        textboxEmail.required = false;
+    }
+
+    if (textboxPhone.style.display === 'block') {
+        textboxPhone.required = true;
+    } else {
+        textboxPhone.required = false;
+    }
 });
