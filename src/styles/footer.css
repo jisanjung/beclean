@@ -1,0 +1,15 @@
+footer {
+    background-color: #F5F5F7;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+footer a {
+    color: black;
+}
+footer ul li:not(:last-child) {
+    margin-right: 1rem;
+}
+#becleanCopyright {
+    font-weight: 700;
+    line-height: 1.25;
+}

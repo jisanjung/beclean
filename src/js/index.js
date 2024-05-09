@@ -34,3 +34,7 @@ contactPreference.addEventListener('change', () => {
         textboxPhone.required = false;
     }
 });
+
+const footerYear = document.getElementById('footerYear');
+const currentYear = new Date().getFullYear();
+footerYear.innerHTML = currentYear;
