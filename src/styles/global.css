@@ -83,6 +83,9 @@ button {
 .items-center {
 	align-items: center;
 }
+.row-reverse {
+	flex-direction: row-reverse;
+}
 .container {
 	padding: 0 1rem;
 }
