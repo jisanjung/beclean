@@ -15,3 +15,21 @@
 #homeSection .button:not(:last-child) {
 	margin-right: 1rem;
 }
+
+/* small desktop view */
+@media screen and (min-width: 1024px) {
+	#homeHero {
+		width: 100%;
+		text-align: center;
+	}
+	#heroButtons {
+		justify-content: center;
+	}
+}
+
+/* large desktop view */
+@media screen and (min-width: 1200px) {
+	#homeHero {
+		width: 100%;
+	}
+}

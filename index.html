@@ -16,16 +16,26 @@
   <body>
     <main id="app">
       <header>
-        <div class="flex space-between">
+        <div class="flex space-between items-center container">
           <button class="flex items-center">
             <div class="logo-img">
               <img src="./images/beclean_logo.png"/>
             </div>
             <p>beclean</p>
           </button>
+          <nav id="navDesktop">
+            <ul class="flex items-center">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Our Story</a></li>
+            </ul>
+          </nav>
           <button id="menuBtn">
             <img src="./images/menu_icon.png"/>
           </button>
+          <a id="desktopButton" class="button">Book Now</a>
         </div>
         <nav id="navMobile" class="container">
           <ul>
@@ -40,11 +50,11 @@
       <section id="homeSection">
         <img src="/images/home_section.jpeg" alt="Guy cleaning car" class="h-100 object-cover"/>
         <div class="tint"></div>
-        <div class="absolute center-y">
+        <div id="homeHero" class="absolute center-y">
           <div class="container">
             <h1 class="title-md">The Finest Detail</h1>
             <p class="text">Unveil the Beauty of Your Vehicle With Our Mobile Detailing Services.</p>
-            <div class="flex">
+            <div id="heroButtons" class="flex">
               <a class="button">Learn More</a>
               <a class="button">Book Now</a>
             </div>
