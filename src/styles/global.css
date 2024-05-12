@@ -198,8 +198,8 @@ textarea::placeholder {
 	margin-bottom: 2rem;
 }
 
-/* small desktop view */
-@media screen and (min-width: 1024px) {
+/* ipad view */
+@media screen and (min-width: 768px) {
 	.container {
 		padding: 0 10%;
 	}
