@@ -64,6 +64,9 @@ header #navDesktop {
 	#navDesktop a {
 		color: white;
 	}
+	#navDesktop a:hover {
+		font-weight: bold;
+	}
 }
 
 /* large desktop view */
