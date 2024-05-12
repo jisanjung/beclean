@@ -39,3 +39,12 @@ footer ul li:not(:last-child) {
         margin-bottom: 0;
     }
 }
+
+/* large desktop view */
+@media screen and (min-width: 1200px) {
+	#footerWrapper {
+        padding: 0;
+        width: 1000px !important;
+        margin: 0 auto;
+    }
+}

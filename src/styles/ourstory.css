@@ -4,6 +4,7 @@
 }
 #ourStorySection p {
     color: #333;
+    line-height: 1.45;
 }
 #ourStorySection .title-sm {
     margin-bottom: 2rem;
@@ -12,11 +13,9 @@
 /* small desktop view */
 @media screen and (min-width: 1024px) {
     #ourStorySection {
-        width: 850px;
-        margin: 0 auto;
         margin-bottom: 8rem;
     }
-    #becleanCopyrightDesktop {
-        
+    #ourStorySection p {
+
     }
 }
