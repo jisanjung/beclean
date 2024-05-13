@@ -38,3 +38,9 @@ contactPreference.addEventListener('change', () => {
 const footerYear = document.getElementById('footerYear');
 const currentYear = new Date().getFullYear();
 footerYear.innerHTML = currentYear;
+
+// smooth scroll
+$('a[href*=\\#]').on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+});
