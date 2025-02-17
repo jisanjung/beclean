@@ -1,4 +1,5 @@
 // view
+console.log('wasd');
 $("#menuBtn").on("click", function() {
     $("#navMobile").slideToggle();
 });
